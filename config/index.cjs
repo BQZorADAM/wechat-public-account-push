@@ -27,18 +27,22 @@ const USER_CONFIG = {
       //所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
     region: '咸阳市',
 // 生日1
-birthday1: {name: '傅欣同学', birthday: '2004-02-23'},
+ {
+          type: '生日', name: '傅欣同学', year: '2004', date: '02-23',
+        },
 // 生日2
-birthday2: {name: '白沁卓同学', birthday: '2004-04-07'},
-
+ {
+          type: '生日', name: '白沁卓同学', year: '2004', date: '04-07',
+        },
 //在一起的日子，格式同上，暂不不支持农历
-love_date: '2022-07-26',
+    {keyword:'love_date': '2022-07-26'},
 //金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
 note_ch: '',
 //金句英文
 note_en: ''  
     },
   ],
+}   
 
   CALLBACK_USERS: [
     {
